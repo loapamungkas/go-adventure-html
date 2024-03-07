@@ -310,6 +310,7 @@ footer {
 .footer .items-left {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 .footer .items-left h1 {
   font-size: 20px;
