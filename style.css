@@ -463,7 +463,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
   .hero .box-hero {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
