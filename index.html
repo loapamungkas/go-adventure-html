@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -30,13 +31,13 @@
       <div class="hero">
         <div class="container">
           <div class="box-hero">
-            <div class="box">
+            <div class="box" data-aos="fade-right" data-aos-duration="1000">
               <h4>Toko Penyewaan Alat Camping</h4>
               <h1>Go<i>!</i> Adventure</h1>
               <p>Menyediakan Alat Camping Lengkap</p>
               <button>Selengkapnya</button>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-left" data-aos-duration="2000">
               <img src="assets/hero.png" alt="" />
             </div>
           </div>
@@ -61,10 +62,10 @@
     <section id="about" class="about">
       <div class="container">
         <div class="box-hero">
-          <div class="box">
+          <div class="box" data-aos="fade-up">
             <img src="assets/logo.png" alt="" />
           </div>
-          <div class="box">
+          <div class="box" data-aos="fade-right" data-aos-delay="400">
             <h2>
               Tentang <span>Go<i>!</i> Adventure</span>
             </h2>
@@ -77,21 +78,21 @@
     </section>
     <section class="layanan">
       <div class="container">
-        <div class="jumbotron">
+        <div class="jumbotron" data-aos="fade-up">
           <h2>Layanan Kami</h2>
           <h1>Kami memiliki layanan terbaik untuk sewa alat camping</h1>
           <div class="card-list">
-            <div class="box">
+            <div class="box" data-aos="zoom-in">
               <i class="fa-solid fa-box"></i>
               <h3>Penyewaan Alat Cepat</h3>
               <p>Layanan utama dalam rental alat camping adalah menyediakan alat untuk disewakan kepada pelanggan.</p>
             </div>
-            <div class="box">
+            <div class="box" data-aos="zoom-in" data-aos-delay="200">
               <i class="fa-solid fa-truck-fast"></i>
               <h3>Pengiriman & Penjemputan</h3>
               <p>Layanan pengiriman dan penjemputan alat untuk memberikan kemudahan kepada pelanggan.</p>
             </div>
-            <div class="box">
+            <div class="box" data-aos="zoom-in" data-aos-delay="400">
               <i class="fa-solid fa-shield-halved"></i>
               <h3>Asuransi & Perlindungan</h3>
               <p>Menawarkan opsi asuransi dan perlindungan tambahan untuk memberikan keamanan ekstra selama masa sewa alat.</p>
@@ -120,28 +121,28 @@
         <div class="product-list">
           <h2>Produk Kami</h2>
           <div class="card-list">
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="200">
               <img src="assets/tenda1.png" alt="" />
               <p>Tenda</p>
               <h4>Tendaki Borneo 4</h4>
               <h1>Rp.50.000</h1>
               <button class="btn-detail">Lihat Detail</button>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="400">
               <img src="assets/tenda2.png" alt="" />
               <p>Tenda</p>
               <h4>Tenda Prisma Pramuka</h4>
               <h1>Rp.50.000</h1>
               <button class="btn-detail">Lihat Detail</button>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
               <img src="assets/tenda3.png" alt="" />
               <p>Tenda</p>
               <h4>Tendaki Moluccas 6 Pro</h4>
               <h1>Rp.50.000</h1>
               <button class="btn-detail">Lihat Detail</button>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="800">
               <img src="assets/meja.png" alt="" />
               <p>Perlengkapan Laiannya</p>
               <h4>Meja Kursi Lipat</h4>
@@ -174,6 +175,7 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/8c42b989e7.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>

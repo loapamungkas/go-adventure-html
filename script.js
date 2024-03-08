@@ -19,3 +19,5 @@ for (i = 0; i < navItems.length; i++) {
     menuNav.classList.remove('menu-active');
   });
 }
+
+AOS.init();
